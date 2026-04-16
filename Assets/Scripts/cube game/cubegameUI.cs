@@ -22,4 +22,6 @@ public class cubegameUI : MonoBehaviour
         Timer += Time.deltaTime;
         TimerText.text = "생존 시간 : " + Timer.ToString("0.00");
     }
+
+
 }
