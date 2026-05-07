@@ -29,7 +29,6 @@ public class PlayerHealth : MonoBehaviour
         }
 
 
-
         void GameOver()
         {
             gameObject.SetActive(false);
@@ -38,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
 
         void RestarGame()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene(). name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
 
